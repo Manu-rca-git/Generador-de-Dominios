@@ -1,11 +1,13 @@
-/* eslint-disable */
-import "bootstrap";
-import "./style.css";
 
-import "./assets/img/rigo-baby.jpg";
-import "./assets/img/4geeks.ico";
+let pronoun = ['my', 'your', 'our'];
+let adj = ['awesome', 'creative', 'unique'];
+let noun = ['developer', 'artist', 'thinker'];
 
-window.onload = function() {
-  //write your code here
-  console.log("Hello Rigo from the console!");
-};
+for (let p = 0; p < pronoun.length; p++) {
+    for (let a = 0; a < adj.length; a++) {
+        for (let n = 0; n < noun.length; n++)  {
+                console.log(pronoun[p] + adj[a] + noun[n] + ".net");
+            }
+        }
+    }
+    
